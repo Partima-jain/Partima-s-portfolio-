@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partima's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack developer</p>
+            <h1>Hi, I'm <br><span>Partima </span>Jain</h1>
+        </div>
+    </div>
+</div>
+<!------------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a front end developer. I've worked on a variety of projects. I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onmouseover="opentab('skills')">Skills</p>
+                    <p class="tab-links" onmouseover="opentab('experience')">Experience</p>
+                    <p class="tab-links" onmouseover="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Language</span><br>Python, C++, C#</li>
+                        <li><span>Web Development Languages</span><br>HTML5, CSS</li>
+                        <li><span>Scripting Languages</span><br>JavaScript</li>
+                        <li><span>Framework & libraries</span><br>React.js</li>
+                        <li><span>Databases</span><br>Mongodb, MySQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Onebanc Technologies</span><br>Full Stack Developer</li>
+                        <li><span>Webistic Internship</span><br>Full Stack Developer</li>
+                        <li><span>Engineer Core Summer Internship</span><br> Python Programmer</li>
+                        <li><span>Certificate of Participation</span><br>Advance Python Programming</li>
+                        <li><span>e-Yantra</span><br>Crash Course Embedded System & Robotics</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2015</span><br>B Tech from CGC, Jhanjheri </li>
+                        <li><span>2020-2021</span><br>12th from Rigveda International School, Tohana</li>
+                        <li><span>2018-2019</span><br>10th from DAV School, Tohana</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Services---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Python Programmer</h2>
+                <p>Advance Python programming copurse with Engineer Core Summer Internship in association with Effervescence IIIT Allahbad in month of may & june 2023</p>
+                <a href="https://onebanc.ai/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Full Stack Developer</h2>
+                <p>Proficiency in front-end technologies such as HTML, CSS, JavaScript, and frameworks like React or Angular,back-end technologies like Node.js,database systems such as MongoDB, MySQL.</p>
+                <a href="https://www.linkedin.com/company/webistic-in/mycompany/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Full Stack Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores et ipsum perspiciatis ut labore impedit magni autem eius perferendis aperiam eveniet a magnam ad unde, beatae cupiditate voluptatibus fugit.</p>
+                <a href="https://engineercore.in/product/advance-python-programming/">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.png">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p> An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://66838e1d7ae60b0de9909665--deft-gumdrop-dec602.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.png">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>An online portfolio is an online representation of work you have created, as well as your skills and experiences.<i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://partima-jain.github.io/partima.portfolio/#portfolio"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.png">
+                <div class="layer">
+                    <h3>Pharma Website</h3>
+                    <p>A modern and responsive pharmaceutical website designed using HTML, CSS, and JavaScript, providing a seamless user experience <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://66838ebad93988f5d1a4624b--monumental-paletas-1cca07.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+    </div>
+    <div class="work-list">
+            <div class="work">
+                <img src="work4.png">
+                <div class="layer">
+                    <h3>CSS Based Amazon Clone</h3>
+                    <p>Amazon Clone : A web-based mockup inspired by Amazon's design. This project showcases HTML and CSS skills.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/css-based-Amazon-clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work5.png">
+                <div class="layer">
+                    <h3>Consultancy Website</h3>
+                    <p> Our consultancy specializes in crafting cutting-edge HTML, CSS, and JavaScript solutions to elevate your web presence and drive business growth. <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://relaxed-figolla-3c2505.netlify.app/?"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work6.png">
+                <div class="layer">
+                    <h3>Internet Speed Calculator </h3>
+                    <p> We can create a Python application using the pyspeedtest library to assess and evaluate the efficiency of our internet connection. Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Internet_speed_calculator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------------Contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>parigarg211@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 94684 05180</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/partima-jain/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Partima-jain"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/partima_jain_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://leetcode.com/Partima_jain/"><i class="fa-solid fa-code"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1YlUu0zEEH49LVm5wuWeYOS7KjNm3uhK6/view?usp=drivesdk" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright © Partima. Made with <i class="fa-solid fa-heart"></i></div>
+</div>
+
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</body>
+</html>
